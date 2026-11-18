@@ -32,6 +32,47 @@
           }
         }
       ]
+    },
+    {
+      "method": "GET",
+      "path": "/quote/Q-1",
+      "responses": [
+        {
+          "body": {
+            "quoteId": "Q-1",
+            "revision": 1,
+            "accepted": {
+              "address": "青禾路6号",
+              "pieces": 3,
+              "services": [
+                "delivery"
+              ]
+            },
+            "charges": [
+              {
+                "kind": "linehaul",
+                "amount": 1200,
+                "required": true
+              }
+            ],
+            "expiresAt": 9000
+          }
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/confirmations",
+      "responses": [
+        {
+          "body": {
+            "confirmationId": "CF1",
+            "inquiry": "I-1",
+            "seenQuoteRevision": 1,
+            "accepted": true
+          }
+        }
+      ]
     }
   ]
 }
