@@ -1,0 +1,10 @@
+{
+  "initial": {
+    "inquiries": {},
+    "quotes": {}
+  },
+  "route": {
+    "method": "POST",
+    "path": "/rate"
+  }
+}

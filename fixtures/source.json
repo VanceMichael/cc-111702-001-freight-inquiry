@@ -1,0 +1,37 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/rate",
+      "responses": [
+        {
+          "body": {
+            "inquiry": "I-1",
+            "carrier": "north",
+            "address": "青禾路6号",
+            "pieces": 3,
+            "services": [
+              "delivery"
+            ],
+            "quoteId": "Q-1",
+            "accepted": {
+              "address": "青禾路6号",
+              "pieces": 3,
+              "services": [
+                "delivery"
+              ]
+            },
+            "charges": [
+              {
+                "kind": "linehaul",
+                "amount": 1200,
+                "required": true
+              }
+            ],
+            "expiresAt": 9000
+          }
+        }
+      ]
+    }
+  ]
+}
