@@ -1,0 +1,37 @@
+[
+  {
+    "name": "询盘身份不符",
+    "changes": {
+      "inquiry": "OTHER"
+    }
+  },
+  {
+    "name": "件数不符",
+    "changes": {
+      "accepted.pieces": 4
+    }
+  },
+  {
+    "name": "必收费用重复",
+    "changes": {
+      "charges": [
+        {
+          "kind": "linehaul",
+          "amount": 1,
+          "required": true
+        },
+        {
+          "kind": "linehaul",
+          "amount": 1,
+          "required": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "报价失效",
+    "changes": {
+      "expiresAt": 0
+    }
+  }
+]
