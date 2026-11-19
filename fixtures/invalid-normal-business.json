@@ -6,9 +6,9 @@
     }
   },
   {
-    "name": "件数不符",
+    "name": "接受件数无效",
     "changes": {
-      "accepted.pieces": 4
+      "accepted.pieces": 2.5
     }
   },
   {
